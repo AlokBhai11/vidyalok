@@ -14,6 +14,7 @@
             linear-gradient(90deg, rgba(255, 255, 255, .015) 1px, transparent 1px);
         background-size: 60px 60px;
         -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+        mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
         pointer-events: none;
     }
 
@@ -67,12 +68,26 @@
         justify-content: center;
     }
 
+}
 
+.processTitle {
+    font-family: 'Forte', serif;
+    font-size: clamp(30px, 4vw, 50px);
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 16px;
+    letter-spacing: -1px;
+}
+
+.processSub{
+font-size: 16px;
+    color: var(--text2);
+    max-width: 520px;
+    line-height: 1.7;
 }
 
 @media (max-width: 768px) {
     .hero {
         min-height: 90vh;
     }
-    
 }

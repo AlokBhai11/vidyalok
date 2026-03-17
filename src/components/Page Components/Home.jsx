@@ -1,4 +1,4 @@
-import style from './styles/home.module.css'
+import style from './style.module.css'
 import Badge from '../UI Components/Badge'
 import Button from '../UI Components/Button'
 import StatCard from '../UI Components/StatCard'
