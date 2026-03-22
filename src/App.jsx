@@ -15,10 +15,10 @@ function App() {
       <section id="center">
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/feature' element={<h1>Hii</h1>}/>
+          {/* <Route path='/feature' element={<h1>Hii</h1>}/>
           <Route path='/how-it-works' element={<Process />}/>
           <Route path='/pricing' element={<h1>Pricing</h1>}/>
-          <Route path='/reviews' element={<h1>Revieews</h1>} />
+          <Route path='/reviews' element={<h1>Revieews</h1>} /> */}
         </Routes>
       </section>
       

@@ -1,7 +1,7 @@
 import vidyalogo from '../../assets/vidyalok.svg'
 import Button from '../UI Components/Button'
 import style from './style.module.css'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 function Header(){
     return(
@@ -12,7 +12,7 @@ function Header(){
             </div>
             <nav>
                 <Link to="/feature">Feature</Link>
-                <Link to="/how-it-works">How it Works</Link>
+                <Link to="how-it-works" smooth={true}>How it Works</Link>
                 <Link to="/pricing">Pricing</Link>
                 <Link to='/reviews'>Reviews</Link>
             </nav>

@@ -2,6 +2,7 @@ import style from './style.module.css'
 import Badge from '../UI Components/Badge'
 import Button from '../UI Components/Button'
 import StatCard from '../UI Components/StatCard'
+import Process from './Process'
 
 function Home() {
     return (
@@ -21,6 +22,10 @@ function Home() {
                     <StatCard />
                     <StatCard />
                 </div>
+            </div>
+
+            <div className={style.how} id='how-it-works'>
+                <Process />
             </div>
         </>
     )
